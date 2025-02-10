@@ -65,17 +65,18 @@ Antes de ejecutar el framework, asegúrate de tener los siguientes requisitos:
     ```properties
     browser=chromeheadless
     ```
-6. Si usas un IDE como IntelliJ o Eclipse
+6. Si usas un IDE como IntelliJ o Eclipse:
+
   En IntelliJ IDEA:
-  ```Ve a la pestaña Maven (View > Tool Windows > Maven).
-  Haz clic en el ícono de Actualizar Proyecto (parece dos flechas en círculo) o usa Ctrl + Shift + O.
-  ```
+    ```Ve a la pestaña Maven (View > Tool Windows > Maven).
+    Haz clic en el ícono de Actualizar Proyecto (parece dos flechas en círculo) o usa Ctrl + Shift + O.
+    ```
  
   En Eclipse:
-  ```
-  Haz clic derecho en el proyecto.
-  Ve a Maven > Update Project (Alt + F5).
-  ```
+   ```
+   Haz clic derecho en el proyecto.
+   Ve a Maven > Update Project (Alt + F5).
+   ```
 ## Ejecución de Pruebas
 
 Para ejecutar las pruebas, usa el siguiente comando Maven:
