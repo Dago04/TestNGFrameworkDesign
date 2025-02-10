@@ -1,96 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-08T13:06:43 CST" name="Suite" finished-at="2025-02-08T13:07:10 CST" duration-ms="26519">
+  <suite started-at="2025-02-09T20:11:09 CST" name="Suite" finished-at="2025-02-09T20:11:37 CST" duration-ms="27186">
     <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.LoginErrorValidation()[pri:0, instance:automatedProject.tests.ErrorValidationsTest@12c7a01b]" name="LoginErrorValidation" class="automatedProject.tests.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
       <group name="Purchase">
-        <method signature="SubmitOrderTest.OrderHistoryTest()[pri:0, instance:automatedProject.tests.SubmitOrderTest@58cbafc2]" name="OrderHistoryTest" class="automatedProject.tests.SubmitOrderTest"/>
-        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:automatedProject.tests.SubmitOrderTest@58cbafc2]" name="submitOrder" class="automatedProject.tests.SubmitOrderTest"/>
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:automatedProject.tests.SubmitOrderTest@386f0da3]" name="submitOrder" class="automatedProject.tests.SubmitOrderTest"/>
       </group> <!-- Purchase -->
     </groups>
-    <test started-at="2025-02-08T13:06:43 CST" name="Error Validations Test" finished-at="2025-02-08T13:06:43 CST" duration-ms="9">
-    </test> <!-- Error Validations Test -->
-    <test started-at="2025-02-08T13:06:43 CST" name="Submit Order Test" finished-at="2025-02-08T13:07:10 CST" duration-ms="26519">
-      <class name="automatedProject.tests.SubmitOrderTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:automatedProject.tests.SubmitOrderTest@58cbafc2]" started-at="2025-02-08T13:06:43 CST" name="launchApplication" finished-at="2025-02-08T13:06:49 CST" duration-ms="6092" status="PASS">
+    <test started-at="2025-02-09T20:11:09 CST" name="Error Validations Test" finished-at="2025-02-09T20:11:17 CST" duration-ms="7589">
+      <class name="automatedProject.tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:automatedProject.tests.ErrorValidationsTest@12c7a01b]" started-at="2025-02-09T20:11:09 CST" name="launchApplication" finished-at="2025-02-09T20:11:16 CST" duration-ms="6386" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="OrderHistoryTest()[pri:0, instance:automatedProject.tests.SubmitOrderTest@58cbafc2]" started-at="2025-02-08T13:06:49 CST" name="OrderHistoryTest" finished-at="2025-02-08T13:06:52 CST" duration-ms="2579" status="PASS">
+        <test-method signature="LoginErrorValidation()[pri:0, instance:automatedProject.tests.ErrorValidationsTest@12c7a01b]" started-at="2025-02-09T20:11:16 CST" name="LoginErrorValidation" finished-at="2025-02-09T20:11:17 CST" duration-ms="1054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automatedProject.tests.ErrorValidationsTest@12c7a01b]" started-at="2025-02-09T20:11:17 CST" name="tearDown" finished-at="2025-02-09T20:11:17 CST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automatedProject.tests.ErrorValidationsTest -->
+    </test> <!-- Error Validations Test -->
+    <test started-at="2025-02-09T20:11:09 CST" name="Submit Order Test" finished-at="2025-02-09T20:11:37 CST" duration-ms="27186">
+      <class name="automatedProject.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:automatedProject.tests.SubmitOrderTest@386f0da3]" started-at="2025-02-09T20:11:10 CST" name="launchApplication" finished-at="2025-02-09T20:11:16 CST" duration-ms="6094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:automatedProject.tests.SubmitOrderTest@386f0da3]" started-at="2025-02-09T20:11:16 CST" name="submitOrder" data-provider="getData" finished-at="2025-02-09T20:11:19 CST" duration-ms="3766" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Derbys05, product=ZARA, email=dagoscr@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automatedProject.tests.SubmitOrderTest@386f0da3]" started-at="2025-02-09T20:11:19 CST" name="tearDown" finished-at="2025-02-09T20:11:19 CST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:automatedProject.tests.SubmitOrderTest@386f0da3]" started-at="2025-02-09T20:11:19 CST" name="launchApplication" finished-at="2025-02-09T20:11:25 CST" duration-ms="5366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:automatedProject.tests.SubmitOrderTest@386f0da3]" started-at="2025-02-09T20:11:25 CST" name="submitOrder" data-provider="getData" finished-at="2025-02-09T20:11:29 CST" duration-ms="3747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Derbys05, product=ADIDAS, email=dago@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automatedProject.tests.SubmitOrderTest@386f0da3]" started-at="2025-02-09T20:11:29 CST" name="tearDown" finished-at="2025-02-09T20:11:29 CST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:automatedProject.tests.SubmitOrderTest@386f0da3]" started-at="2025-02-09T20:11:29 CST" name="launchApplication" finished-at="2025-02-09T20:11:35 CST" duration-ms="6631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:automatedProject.tests.SubmitOrderTest@386f0da3]" started-at="2025-02-09T20:11:35 CST" name="OrderHistoryTest" finished-at="2025-02-09T20:11:36 CST" depends-on-methods="automatedProject.tests.SubmitOrderTest.submitOrder" duration-ms="1129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OrderHistoryTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:automatedProject.tests.SubmitOrderTest@58cbafc2]" started-at="2025-02-08T13:06:52 CST" name="tearDown" finished-at="2025-02-08T13:06:52 CST" duration-ms="76" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:automatedProject.tests.SubmitOrderTest@58cbafc2]" started-at="2025-02-08T13:06:52 CST" name="launchApplication" finished-at="2025-02-08T13:06:58 CST" duration-ms="5514" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:automatedProject.tests.SubmitOrderTest@58cbafc2]" started-at="2025-02-08T13:06:58 CST" name="submitOrder" data-provider="getData" finished-at="2025-02-08T13:07:02 CST" duration-ms="4168" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{password=Derbys05, product=QWERTY, email=dagoscr@gmail.com}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:automatedProject.tests.SubmitOrderTest@58cbafc2]" started-at="2025-02-08T13:07:02 CST" name="tearDown" finished-at="2025-02-08T13:07:02 CST" duration-ms="84" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:automatedProject.tests.SubmitOrderTest@58cbafc2]" started-at="2025-02-08T13:07:02 CST" name="launchApplication" finished-at="2025-02-08T13:07:09 CST" duration-ms="6682" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:automatedProject.tests.SubmitOrderTest@58cbafc2]" started-at="2025-02-08T13:07:09 CST" name="submitOrder" data-provider="getData" finished-at="2025-02-08T13:07:10 CST" duration-ms="1068" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{password=Derbys05, product=IPHONE 13 PRO, email=dago@gmail.com}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebElement.findElement(org.openqa.selenium.By)" because the return value of "automatedProject.pageObjects.ProductCatalogue.getProductByName(String)" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.findElement(org.openqa.selenium.By)" because the return value of "automatedProject.pageObjects.ProductCatalogue.getProductByName(String)" is null
-at automatedProject.pageObjects.ProductCatalogue.addProductToCar(ProductCatalogue.java:57)
-at automatedProject.tests.SubmitOrderTest.submitOrder(SubmitOrderTest.java:36)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:automatedProject.tests.SubmitOrderTest@58cbafc2]" started-at="2025-02-08T13:07:10 CST" name="tearDown" finished-at="2025-02-08T13:07:10 CST" duration-ms="75" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automatedProject.tests.SubmitOrderTest@386f0da3]" started-at="2025-02-09T20:11:36 CST" name="tearDown" finished-at="2025-02-09T20:11:37 CST" duration-ms="98" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
