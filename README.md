@@ -21,7 +21,6 @@ Este repositorio contiene un **framework de pruebas automatizadas** diseñado pa
   - **`resources`**: Archivos de configuración y recursos adicionales como `GlobalData.properties`.
 
 - **`src/test/java`**: Contiene las clases de pruebas y componentes adicionales del framework.
-    - **`pageObjects`**: Contiene las clases que representan las páginas de la aplicación (POM).
     - **`testComponents`**: Contiene clases de soporte como `BaseTest`, `Listeners`, `Retry` y utilidades adicionales.
     - **`data`**: Archivos de datos JSON utilizados para las pruebas parametrizadas.
     - **`tests`**: Contiene las clases de pruebas que se ejecutan.
