@@ -15,11 +15,18 @@ Este repositorio contiene un **framework de pruebas automatizadas** diseñado pa
 
 ## Estructura del Proyecto
 
-- **`src/test/java/automatedProject`**: Contiene las clases de pruebas y componentes del framework.
-  - **`pageObjects`**: Contiene las clases que representan las páginas de la aplicación (POM).
-  - **`testComponents`**: Contiene clases de soporte como `BaseTest`, `Listeners`, `Retry` y utilidades adicionales.
-  - **`data`**: Archivos de datos JSON utilizados para las pruebas parametrizadas.
-  - **`resources`**: Archivos de configuración y recursos adicionales como `GlobalData.properties` y el reporte de ExtentReports.
+- **`src/main/java`**: Contiene las clases de implementación del framework.
+  - **`abstractComponent`**: Clases abstractas comunes para el framework.
+  - **`pageObject`**: Contiene las clases que representan las páginas de la aplicación (POM).
+  - **`resources`**: Archivos de configuración y recursos adicionales como `GlobalData.properties`.
+
+- **`src/test/java`**: Contiene las clases de pruebas y componentes adicionales del framework.
+  - **`automatedProject`**: Contiene las clases de pruebas.
+    - **`pageObjects`**: Contiene las clases que representan las páginas de la aplicación (POM).
+    - **`testComponents`**: Contiene clases de soporte como `BaseTest`, `Listeners`, `Retry` y utilidades adicionales.
+    - **`data`**: Archivos de datos JSON utilizados para las pruebas parametrizadas.
+    - **`tests`**: Contiene las clases de pruebas que se ejecutan.
+
 - **`reports`**: Directorio donde se almacenan los reportes generados por ExtentReports.
 
 ## Requisitos Previos
