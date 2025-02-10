@@ -65,7 +65,7 @@ Antes de ejecutar el framework, asegúrate de tener los siguientes requisitos:
     ```properties
     browser=chromeheadless
     ```
-6. Si usas un IDE como IntelliJ o Eclipse:
+6. Si usas un IDE como IntelliJ o Eclipse y necesitas las depedencias de maven:
 
     En IntelliJ IDEA:
       ```Ve a la pestaña Maven (View > Tool Windows > Maven).
