@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-09T18:55:23 CST" name="Surefire suite" finished-at="2025-02-09T18:56:03 CST" duration-ms="40356">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.LoginErrorValidation()[pri:0, instance:automatedProject.tests.ErrorValidationsTest@659a969b]" name="LoginErrorValidation" class="automatedProject.tests.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:automatedProject.tests.SubmitOrderTest@35047d03]" name="submitOrder" class="automatedProject.tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2025-02-09T18:55:23 CST" name="Surefire test" finished-at="2025-02-09T18:56:03 CST" duration-ms="40356">
+      <class name="automatedProject.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:automatedProject.tests.SubmitOrderTest@35047d03]" started-at="2025-02-09T18:55:38 CST" name="launchApplication" finished-at="2025-02-09T18:55:44 CST" duration-ms="5508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:automatedProject.tests.SubmitOrderTest@35047d03]" started-at="2025-02-09T18:55:44 CST" name="submitOrder" data-provider="getData" finished-at="2025-02-09T18:55:48 CST" duration-ms="3848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Derbys05, product=ZARA, email=dagoscr@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automatedProject.tests.SubmitOrderTest@35047d03]" started-at="2025-02-09T18:55:48 CST" name="tearDown" finished-at="2025-02-09T18:55:48 CST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:automatedProject.tests.SubmitOrderTest@35047d03]" started-at="2025-02-09T18:55:48 CST" name="launchApplication" finished-at="2025-02-09T18:55:53 CST" duration-ms="5409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:automatedProject.tests.SubmitOrderTest@35047d03]" started-at="2025-02-09T18:55:53 CST" name="submitOrder" data-provider="getData" finished-at="2025-02-09T18:55:57 CST" duration-ms="3794" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Derbys05, product=ADIDAS, email=dago@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automatedProject.tests.SubmitOrderTest@35047d03]" started-at="2025-02-09T18:55:57 CST" name="tearDown" finished-at="2025-02-09T18:55:57 CST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:automatedProject.tests.SubmitOrderTest@35047d03]" started-at="2025-02-09T18:55:57 CST" name="launchApplication" finished-at="2025-02-09T18:56:02 CST" duration-ms="5387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:automatedProject.tests.SubmitOrderTest@35047d03]" started-at="2025-02-09T18:56:02 CST" name="OrderHistoryTest" finished-at="2025-02-09T18:56:03 CST" depends-on-methods="automatedProject.tests.SubmitOrderTest.submitOrder" duration-ms="935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automatedProject.tests.SubmitOrderTest@35047d03]" started-at="2025-02-09T18:56:03 CST" name="tearDown" finished-at="2025-02-09T18:56:03 CST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automatedProject.tests.SubmitOrderTest -->
+      <class name="automatedProject.tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:automatedProject.tests.ErrorValidationsTest@659a969b]" started-at="2025-02-09T18:55:23 CST" name="launchApplication" finished-at="2025-02-09T18:55:29 CST" duration-ms="6087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:automatedProject.tests.ErrorValidationsTest@659a969b]" started-at="2025-02-09T18:55:29 CST" name="LoginErrorValidation" finished-at="2025-02-09T18:55:30 CST" duration-ms="526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automatedProject.tests.ErrorValidationsTest@659a969b]" started-at="2025-02-09T18:55:30 CST" name="tearDown" finished-at="2025-02-09T18:55:30 CST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:automatedProject.tests.ErrorValidationsTest@659a969b]" started-at="2025-02-09T18:55:30 CST" name="launchApplication" finished-at="2025-02-09T18:55:35 CST" duration-ms="5361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:automatedProject.tests.ErrorValidationsTest@659a969b]" started-at="2025-02-09T18:55:35 CST" name="ProductErrorValidation" finished-at="2025-02-09T18:55:38 CST" duration-ms="2926" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at org.testng.Assert.assertFalse(Assert.java:89)
+at automatedProject.tests.ErrorValidationsTest.ProductErrorValidation(ErrorValidationsTest.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automatedProject.tests.ErrorValidationsTest@659a969b]" started-at="2025-02-09T18:55:38 CST" name="tearDown" finished-at="2025-02-09T18:55:38 CST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automatedProject.tests.ErrorValidationsTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
